@@ -1,13 +1,13 @@
 .contactList {
-    list-style: none; /* Прибираємо стандартні маркери списку */
+    list-style: none; 
     padding: 0;
-    margin-top: 20px; /* Додаємо відступ зверху від заголовка */
+    margin-top: 20px; 
   }
 
   .contactListItem {
-    display: flex; /* Використовуємо flexbox для розміщення елементів в ряд */
-    align-items: center; /* Вирівнюємо елементи по вертикалі по центру */
-    justify-content: space-between; /* Розміщуємо простір між елементами */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;

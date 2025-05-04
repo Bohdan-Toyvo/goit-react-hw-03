@@ -19,12 +19,18 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem("contacts", JSON.stringify(contacts));
   }, [contacts]);
+  const [filter, setFilter] = useState('');
+
+  const filterContacts = contacts.filter(contact =>
+    contact.name.toLowerCase().includes(filter.toLowerCase())
+  );
+
   return (
     <div>
       <h1>Phonebook</h1>
       <ContactForm />
-      <SearchBox />
-      <ContactList contactList={contactData}/>
+      <SearchBox value={filter} onChange={setFilter}/>
+      <ContactList contactList={filterContacts}/>
     </div>
   );
 }

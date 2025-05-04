@@ -1,27 +1,27 @@
 .contactContainer {
     display: flex;
-    align-items: center; /* Вирівнюємо елементи по вертикалі */
-    justify-content: space-between; /* Розміщуємо інформацію та кнопку по краях */
+    align-items: center; 
+    justify-content: space-between; 
     width: 100%;
     padding: 10px;
   }
   
   .info {
     display: flex;
-    flex-direction: column; /* Розташовуємо ім'я та номер вертикально */
+    flex-direction: column; 
     gap: 5px;
   }
   
   .details {
     display: flex;
-    align-items: center; /* Вирівнюємо іконку та текст по вертикалі */
+    align-items: center; 
     gap: 8px;
   }
   
   .icon {
     font-size: 1em;
     color: #555;
-    margin-right: 5px; /* Додаємо відступ справа для тексту */
+    margin-right: 5px; 
   }
     
   .name,
