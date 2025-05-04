@@ -1,6 +1,4 @@
-import { Formik, Form, Field, ErrorMessage } from 'formik';
-import { useId } from 'react';
-import * as Yup from 'yup';
+
 import { useState, useEffect } from "react";
 
 import contactData from '../Contact/Contact.json';
@@ -25,10 +23,14 @@ export default function App() {
     contact.name.toLowerCase().includes(filter.toLowerCase())
   );
 
+  const addContact = (newContact) => {
+    setContacts((prevContacts) => {return [...prevContacts, newContact]});
+   }
+
   return (
     <div>
       <h1>Phonebook</h1>
-      <ContactForm />
+      <ContactForm addContact={addContact}/>
       <SearchBox value={filter} onChange={setFilter}/>
       <ContactList contactList={filterContacts}/>
     </div>
