@@ -1,45 +1,44 @@
 .contactContainer {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    width: 100%;
-    padding: 10px;
-  }
-  
-  .info {
-    display: flex;
-    flex-direction: column; 
-    gap: 5px;
-  }
-  
-  .details {
-    display: flex;
-    align-items: center; 
-    gap: 8px;
-  }
-  
-  .icon {
-    font-size: 1em;
-    color: #555;
-    margin-right: 5px; 
-  }
-    
-  .name,
-  .number {
-    margin: 0;
-  }
-  
-  
-  .deleteButton {
-    padding: 8px 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f0f0f0;
-    cursor: pointer;
-    font-size: 0.9em;
-    color: black;
-  }
-  
-  .deleteButton:hover {
-    background-color: #e0e0e0;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 1em;
+  color: #555;
+  margin-right: 5px;
+}
+
+.name,
+.number {
+  margin: 0;
+}
+
+.deleteButton {
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-size: 0.9em;
+  color: black;
+}
+
+.deleteButton:hover {
+  background-color: #e0e0e0;
+}

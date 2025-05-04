@@ -1,6 +1,7 @@
 import css from './SearchBox.module.css';
 
-export default function SearchBox({value, onChange}) { return (
+export default function SearchBox({ value, onChange }) {
+  return (
     <div className={css.searchBox}>
       <label htmlFor="name">Find contacts by name</label>
       <input
@@ -10,4 +11,5 @@ export default function SearchBox({value, onChange}) { return (
         onChange={(event) => onChange(event.target.value)}
       />
     </div>
-  );}
+  );
+}
