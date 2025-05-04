@@ -1,0 +1,17 @@
+.contactList {
+    list-style: none; /* Прибираємо стандартні маркери списку */
+    padding: 0;
+    margin-top: 20px; /* Додаємо відступ зверху від заголовка */
+  }
+
+  .contactListItem {
+    display: flex; /* Використовуємо flexbox для розміщення елементів в ряд */
+    align-items: center; /* Вирівнюємо елементи по вертикалі по центру */
+    justify-content: space-between; /* Розміщуємо простір між елементами */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: black;
+  }

@@ -1,0 +1,45 @@
+.contactContainer {
+    display: flex;
+    align-items: center; /* Вирівнюємо елементи по вертикалі */
+    justify-content: space-between; /* Розміщуємо інформацію та кнопку по краях */
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column; /* Розташовуємо ім'я та номер вертикально */
+    gap: 5px;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center; /* Вирівнюємо іконку та текст по вертикалі */
+    gap: 8px;
+  }
+  
+  .icon {
+    font-size: 1em;
+    color: #555;
+    margin-right: 5px; /* Додаємо відступ справа для тексту */
+  }
+    
+  .name,
+  .number {
+    margin: 0;
+  }
+  
+  
+  .deleteButton {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 0.9em;
+    color: black;
+  }
+  
+  .deleteButton:hover {
+    background-color: #e0e0e0;
+  }
